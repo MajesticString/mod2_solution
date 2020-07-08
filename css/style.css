@@ -1,0 +1,14 @@
+/*for large devices*/
+@media (min-width: 992px) {
+
+}
+
+/*for tablets*/
+@media (min-width: 768) and (max-width: 991px) {
+
+}
+
+/*for phones*/
+@media (max-width: 767px) {
+    
+}
