@@ -1,3 +1,6 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /*for large devices*/
 @media (min-width: 992px) {
 
@@ -10,5 +13,5 @@
 
 /*for phones*/
 @media (max-width: 767px) {
-    
+
 }
