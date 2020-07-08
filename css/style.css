@@ -1,17 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+.header{
+    text-align: center;
 }
 
 .box-1, .box-2, .box-3 {
+    margin: 15px;
     border: 2px solid black;
-    background-color: gray;
+    padding: 10px;
+    background-color: rgb(163, 163, 163);
+    height: 150px;
+}
+
+.row {
+    width: 100%
 }
 
 /* Quick question: is grey spelled grey or gray? I've seen both. */
 
 /*for large devices*/
 @media (min-width: 992px) {
+    .box-1, .box-2, .box-3 {
+        width: 31.15%
+    }
     .box-1 {
+        float: left;
+    }
+    .box-2 {
+        float: left;
+    }
+    .box-3 {
         float: left;
     }
 
