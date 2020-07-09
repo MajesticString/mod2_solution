@@ -71,7 +71,7 @@ span {
 /*for tablets*/
 @media (min-width: 768) and (max-width: 991px) {
     .col-md-1 {
-        width: 50%;
+        width: 30%;
         float: left;
     }
     .col-md-2 {
