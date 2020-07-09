@@ -31,7 +31,10 @@ span {
 	font-weight: bold;
 	text-align: center;
 	float: right;
-	position: absolute;
+    position: absolute;
+    top :0;
+    right: 0;
+    margin: 0;
 }
 
 .header{
@@ -51,7 +54,7 @@ span {
 }
 
 .salmon {
-    background-color: aqua;
+    background-color: brown;
 }
 
 .row {
@@ -62,7 +65,7 @@ span {
 
 /*for large devices*/
 @media (min-width: 992px) {
-    .col-lg-4 {
+    .col-lg-1 {
         width: 33.32%;
         float: left;
     }
@@ -70,14 +73,13 @@ span {
 
 /*for tablets*/
 @media (min-width: 768) and (max-width: 991px) {
-    .col-md-1, .col-md-2 {
-        float: left;
-    }
     .col-md-1 {
         width: 50%;
+        float: left;
     }
     .col-md-2 {
         width: 100%;
+        float: left;
     }
 }
 
