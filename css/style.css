@@ -38,12 +38,20 @@ span {
     text-align: center;
 }
 
-.box-1, .box-2, .box-3 {
-    margin: 15px;
-    border: 2px solid black;
-    padding: 10px;
-    background-color: rgb(163, 163, 163);
-    height: 150px;
+.cod, .halibut, .salmon {
+    color: #000000
+}
+
+.cod {
+    background-color: blue;
+}
+
+.halibut {
+    background-color: blueviolet;
+}
+
+.salmon {
+    background-color: aqua;
 }
 
 .row {
@@ -54,44 +62,29 @@ span {
 
 /*for large devices*/
 @media (min-width: 992px) {
-    .box-1, .box-2, .box-3 {
-        width: 31.15%;
-    }
-    .box-1 {
+    .col-lg-4 {
+        width: 33.32%;
         float: left;
     }
-    .box-2 {
-        float: left;
-    }
-    .box-3 {
-        float: left;
-    }
-    .box-4 {
-        float: right;
-    }
-
 }
 
 /*for tablets*/
 @media (min-width: 768) and (max-width: 991px) {
-    .box-1, .box-2 {
+    .col-md-1, .col-md-2 {
+        float: left;
+    }
+    .col-md-1 {
         width: 50%;
     }
-    .box-1 {
-        float: left;
-    }
-    .box-2 {
-        float: left;
-    }
-    .box-3 {
+    .col-md-2 {
         width: 100%;
     }
 }
 
 /*for phones*/
 @media (max-width: 767px) {
-    .box-1, .box-2, .box-3 {
+    .sx {
         width: 100%;
-        margin-right: 30px;
+        float: left;
     }
 }
