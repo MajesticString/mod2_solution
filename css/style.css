@@ -7,7 +7,7 @@ p {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI';
     background-color: azure;
     font-size: 16px;
 }
@@ -69,9 +69,9 @@ span {
 }
 
 /*for tablets*/
-@media (min-width: 768) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .col-md-1 {
-        width: 30%;
+        width: 50%;
         float: left;
     }
     .col-md-2 {
